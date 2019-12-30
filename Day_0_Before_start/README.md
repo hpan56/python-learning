@@ -1,6 +1,10 @@
-# What to do before we strat:
+# Today's topic:
 
 1. Read two slides in this directory.
 2. Set up Python if you haven't.
 3. There's a Youtube video showing how to install Python in lec_01.pdf, for Chinese version, please visit https://www.liaoxuefeng.com/wiki/1016959663602400/1016959856222624
-4. Extension reading: https://www.liaoxuefeng.com/wiki/1016959663602400/1016966024263840
+
+4. Chinese verison about Ternimal and I/O (Input and output) 
+5. Extension reading: https://www.liaoxuefeng.com/wiki/1016959663602400/1016966024263840
+6. Extension reading: https://www.liaoxuefeng.com/wiki/1016959663602400/1017024645952992
+7. A tool that might help:https://www.liaoxuefeng.com/wiki/1016959663602400/1018877595088352
