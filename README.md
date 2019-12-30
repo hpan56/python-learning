@@ -8,5 +8,6 @@
 
 English refernce:
 
-1. Think Python: https://greenteapress.com/wp/think-python-2e/
-2. Automate the Boring Stuff with Python: https://automatetheboringstuff.com/
+1. Dr.Caraza-Harter's materials: https://tyler.caraza-harter.com/
+2. Think Python: https://greenteapress.com/wp/think-python-2e/
+3. Automate the Boring Stuff with Python: https://automatetheboringstuff.com/
