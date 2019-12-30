@@ -22,3 +22,6 @@ Chinese Reference to topic 5, 6 and 7: https://www.liaoxuefeng.com/wiki/10169596
 
 Extension reading: Think Python ch1: http://greenteapress.com/thinkpython2/html/thinkpython2002.html
 
+## Homework:
+
+Project 1 is due 11.59 pm BJT 01/01/2020
