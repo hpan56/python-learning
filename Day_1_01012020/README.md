@@ -16,4 +16,6 @@ In lec_04.pdf:
 6. Values and and Type
 7. Variable
 
-Chinese Reference about topic 6 and 7:https://www.liaoxuefeng.com/wiki/1016959663602400/1017063826246112
+Chinese Reference to topic 4: https://blog.csdn.net/yukinoai/article/details/82079900
+Chinese Reference to topic 5, 6 and 7:https://www.liaoxuefeng.com/wiki/1016959663602400/1017063826246112
+
