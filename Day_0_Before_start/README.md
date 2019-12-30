@@ -1,6 +1,6 @@
 # Today's topic:
 
-1. Read two slides in this directory.
+1. Read two slides in this directory (please skip the course overview part in lec_01.pdf).
 2. Set up Python if you haven't.
 3. There's a Youtube video showing how to install Python https://tyler.caraza-harter.com/cs301/spring19/videos.html, for Chinese version, please visit https://www.liaoxuefeng.com/wiki/1016959663602400/1016959856222624
 
