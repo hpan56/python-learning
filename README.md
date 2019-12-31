@@ -11,3 +11,7 @@ English refernce:
 1. Dr.Caraza-Harter's materials: https://tyler.caraza-harter.com/
 2. Think Python: https://greenteapress.com/wp/think-python-2e/
 3. Automate the Boring Stuff with Python: https://automatetheboringstuff.com/
+
+# Schedule Reference
+
+https://tyler.caraza-harter.com/cs301/fall19/schedule.html
