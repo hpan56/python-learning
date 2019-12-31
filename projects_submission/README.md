@@ -1,4 +1,4 @@
-# How to turn in you projects?
+# How to turn in your projects?
 
 1. Each of you should have a personal directory
 2. Please do not refer to others' directories before finishing yours
