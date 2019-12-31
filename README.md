@@ -1,3 +1,9 @@
+# Python version 
+
+In this repository, we're interested in Python 3, because Python 2 is too old and will not be officially updated since 1st Jan 2020, the day next to the day I edit this sentence.
+
+这里我们只学习Python 3相关的知识。尽管Python 2和Python 3很像，但也有很多的不同，为避免混淆，所有相关资源中出现有关Python 2的部分可直接跳过。此外，官方已经宣布与2020年1月1日起正式停止Python 2的更新。紧跟时代的潮流，这也是我们选择Python 3的原因之一。
+
 # Reference
 
 Here lists some online python lessons in Chinese or English. Some contents from these resources may be quoted in some of our chapters, or show up as extension reading.
