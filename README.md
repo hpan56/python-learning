@@ -7,7 +7,7 @@ Here lists some online python lessons in Chinese or English. Some contents from 
 中文教程:
 
 1. 跟廖雪峰学Python: https://www.liaoxuefeng.com/wiki/1016959663602400
-2. Crossin的变成教室: https://crossincode.com/course/lesson_list/
+2. Crossin的编程教室: https://crossincode.com/course/lesson_list/
 
 English refernce:
 
