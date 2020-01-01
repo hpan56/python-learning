@@ -16,6 +16,12 @@ In lec_04.pdf:
 6. Values and and Type
 7. Variable
 
+In lec_05.pdf:
+
+8. Error Type
+9. Naming variables
+10. Character Art (small exercise)
+
 Chinese Reference to topic 4: https://blog.csdn.net/yukinoai/article/details/82079900
 
 Chinese Reference to topic 5, 6 and 7: https://www.liaoxuefeng.com/wiki/1016959663602400/1017063826246112
