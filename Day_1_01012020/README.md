@@ -22,11 +22,13 @@ In lec_05.pdf:
 9. Naming variables
 10. Character Art (small exercise)
 
+
 Chinese Reference to topic 4: https://blog.csdn.net/yukinoai/article/details/82079900
 
 Chinese Reference to topic 5, 6 and 7: https://www.liaoxuefeng.com/wiki/1016959663602400/1017063826246112
 
-Extension reading: Think Python ch1: http://greenteapress.com/thinkpython2/html/thinkpython2002.html
+
+Extension reading: Think Python ch1 and ch2: http://greenteapress.com/thinkpython2/html/thinkpython2002.html, http://greenteapress.com/thinkpython2/html/thinkpython2003.html
 
 ## Homework:
 
