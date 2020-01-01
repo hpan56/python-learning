@@ -36,7 +36,7 @@ In lec_19.pdf:
 
 Extra:
 
-15. tuple
+15. tuple and set
 16. String Formatting
 
 English Reference to topic 1 and 2: http://greenteapress.com/thinkpython2/html/thinkpython2004.html
@@ -50,6 +50,8 @@ English Reference to topic 10-14: http://greenteapress.com/thinkpython2/html/thi
 English Reference to topic 15: http://greenteapress.com/thinkpython2/html/thinkpython2013.html
 
 Chinese reference to topic 1 and 2: https://www.liaoxuefeng.com/wiki/1016959663602400/1017105145133280
+
+Chinese reference to topic 3-15: https://www.liaoxuefeng.com/wiki/1016959663602400/1017063413904832
 
 Extension Reading: http://greenteapress.com/thinkpython2/html/thinkpython2010.html
 
