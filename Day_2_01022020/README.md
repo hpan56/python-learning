@@ -12,32 +12,31 @@ In lec_13.pdf:
 3. String (Comparison)
 4. Indexing/Slicing
 5. For Loop, range()
-6. String formatting
 
 In lec_15.pdf:
 
-7. list method (len, append, pop, sort, split, join, )
-8. mutability
+6. list method (len, append, pop, sort, split, join, ...)
+7. mutability
 
 In lec_17.pdf:
 
-9. list exercise
+8. list exercise
 
 In lec_18.pdf:
 
-10. Dictionary
-11. update and delete
-12. how to reserve a dict
-13. some exercise
+9. Dictionary
+10. update and delete
+11. how to reserve a dict
+12. some exercise
 
 In lec_19.pdf:
 
-14. Nesting structure
+13. Nesting structure
 
 Extra:
 
-15. tuple and set
-16. String Formatting
+14. tuple and set
+15. String Formatting
 
 English Reference to topic 1 and 2: http://greenteapress.com/thinkpython2/html/thinkpython2004.html
 
