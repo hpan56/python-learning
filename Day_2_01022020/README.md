@@ -1,24 +1,57 @@
 # Today's topic:
 
+Basic Data Structure
+
 In lec_06.pdf:
 
 1. using functions
 2. module
 
-In lec_07.pdf:
+In lec_13.pdf:
 
-3. create functions
-4. paramaters
+3. String (Comparison)
+4. Indexing/Slicing
+5. For Loop, range()
+6. String formatting
 
-In lec_08.pdf:
+In lec_15.pdf:
 
-5. local varibles
-6. global variables
-7. Frames
+7. list method (len, append, pop, sort, split, join, )
+8. mutability
 
-Extension reading: Think Python ch3, http://greenteapress.com/thinkpython2/html/thinkpython2004.html
+In lec_17.pdf:
 
-Chinese reference: https://www.liaoxuefeng.com/wiki/1016959663602400/1017105145133280
+9. list exercise
+
+In lec_18.pdf:
+
+10. Dictionary
+11. update and delete
+12. how to reserve a dict
+13. some exercise
+
+In lec_19.pdf:
+
+14. Nesting structure
+
+Extra:
+
+15. tuple
+16. String Formatting
+
+English Reference to topic 1 and 2: http://greenteapress.com/thinkpython2/html/thinkpython2004.html
+
+English Reference to topic 3-6: http://greenteapress.com/thinkpython2/html/thinkpython2009.html
+
+English Reference to topic 7-9: http://greenteapress.com/thinkpython2/html/thinkpython2011.html
+
+English Reference to topic 10-14: http://greenteapress.com/thinkpython2/html/thinkpython2012.html
+
+English Reference to topic 15: http://greenteapress.com/thinkpython2/html/thinkpython2013.html
+
+Chinese reference to topic 1 and 2: https://www.liaoxuefeng.com/wiki/1016959663602400/1017105145133280
+
+Extension Reading: http://greenteapress.com/thinkpython2/html/thinkpython2010.html
 
 # Homework：
 
