@@ -12,7 +12,9 @@ In lec_07.pdf:
 
 In lec_08.pdf:
 
-5. function scope
+5. local varibles
+6. global variables
+7. Frames
 
 Extension reading: Think Python ch3, http://greenteapress.com/thinkpython2/html/thinkpython2004.html
 
