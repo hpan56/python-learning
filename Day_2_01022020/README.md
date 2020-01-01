@@ -50,7 +50,9 @@ English Reference to topic 15: http://greenteapress.com/thinkpython2/html/thinkp
 
 Chinese reference to topic 1 and 2: https://www.liaoxuefeng.com/wiki/1016959663602400/1017105145133280
 
-Chinese reference to topic 3-15: https://www.liaoxuefeng.com/wiki/1016959663602400/1017063413904832
+Chinese reference to topic 3-14: https://www.liaoxuefeng.com/wiki/1016959663602400/1017063413904832
+
+Chinese reference to topic 15: https://blog.csdn.net/xiabenshu/article/details/88755262, https://www.runoob.com/python/att-string-format.html
 
 Extension Reading: http://greenteapress.com/thinkpython2/html/thinkpython2010.html
 
