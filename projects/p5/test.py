@@ -25,34 +25,33 @@ questions = [
     Question(number=17, weight=1, format=TEXT_FORMAT),
     Question(number=18, weight=1, format=TEXT_FORMAT),
     Question(number=19, weight=1, format=TEXT_FORMAT),
-    Question(number=20, weight=1, format=TEXT_FORMAT),    
+    Question(number=20, weight=1, format=TEXT_FORMAT),
 ]
 question_nums = set([q.number for q in questions])
 
 # JSON and plaintext values
 expected_json = {
-    "1": "33",
-    "2": "19.76071",
-    "3": "26.655754419999994",
-    "4": "68.06346877",
-    "5": "77.87553504",
-    "6": "68.06346877",
-    "7": "49.73757877",
-    "8": "16.96543425",
-    "9": "27.013047475",
-    "10": "19.152052834999996",
-    "11": "7.2249619343519145",
-    "12": "3.2706887566666674",
-    "13": "4.627587380000023",
-    "14": "-0.2148440299999983",
-    "15": "20.80494298333333",
-    "16": "98.55499483333321",
-    "17": "77.95994753999969",
-    "18": "-2.0353479350000327",
-    "19": "6.149171779999982",
-    "20": "-0.49974208000001497",
-}
-
+    "1": "111",
+    "2": "'Baker'",
+    "3": "1",
+    "4": "1430000000",
+    "5": "True",
+    "6": "2",
+    "7": "13129",
+    "8": "792890014998",
+    "9": "190",
+    "10": "'Allen'",
+    "11": "1980",
+    "12": "75",
+    "13": "'Maria'",
+    "14": "Jeanne",
+    "15": "Katrina",
+    "16": "4452",
+    "17": "5580",
+    "18": "996",
+    "19": "483",
+    "20": "2000",
+    }
 
 
 # find a comment something like this: #q10
@@ -97,7 +96,7 @@ def check_cell_text(qnum, cell):
     try:
         actual_float = float(actual)
         expected_float = float(expected)
-        if not math.isclose(actual_float, expected_float, rel_tol=1e-02, abs_tol=1e-02):
+        if not math.isclose(actual_float, expected_float, rel_tol=1e-06, abs_tol=1e-02):
             return "found {} in {} but expected {}".format(actual, location_name, expected)
     except Exception as e:
         if actual != expected:

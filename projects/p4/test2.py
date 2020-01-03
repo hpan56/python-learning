@@ -3027,7 +3027,6 @@ Congratulations! You got it right.
 What is the type of the following? "1" * 2
 Your answer: float
 
-You answered 'float'. The correct answer is 'str'.
 You have this many remaining tries: 2
 Your answer: float
 
@@ -3041,7 +3040,6 @@ What does this expression evaluate to?
  True != (3 < 2)
 Your answer: 1
 
-You answered '1'. The correct answer is 'True'.
 You have this many remaining tries: 2
 Your answer: 0
 
@@ -3073,7 +3071,6 @@ Congratulations! You got it right.
 What is the type of the following? "1" * 2
 Your answer: int
 
-You answered 'int'. The correct answer is 'str'.
 You have this many remaining tries: 2
 Your answer: str
 
@@ -3107,7 +3104,6 @@ Congratulations! You got it right.
 What is the type of the following? "1" * 2
 Your answer: bool
 
-You answered 'bool'. The correct answer is 'str'.
 You have this many remaining tries: 2
 Your answer: bool
 
@@ -3122,7 +3118,6 @@ What does this expression evaluate to?
  True != (3 < 2)
 Your answer: None
 
-You answered 'None'. The correct answer is 'True'.
 You have this many remaining tries: 2
 Your answer: True
 
@@ -3145,7 +3140,6 @@ What is the type of the following? "1.0" + "2.0"
 
 Your answer: b
 
-You answered 'b'. The correct answer is 'c'.
 You have this many remaining tries: 9
 Your answer: c
 
@@ -3154,35 +3148,27 @@ Congratulations! You got it right.
 What is the type of the following? "1" * 2
 Your answer: c
 
-You answered 'c'. The correct answer is 'str'.
 You have this many remaining tries: 9
 Your answer: c
 
-You answered 'c'. The correct answer is 'str'.
 You have this many remaining tries: 8
 Your answer: e
 
-You answered 'e'. The correct answer is 'str'.
 You have this many remaining tries: 7
 Your answer: c
 
-You answered 'c'. The correct answer is 'str'.
 You have this many remaining tries: 6
 Your answer: bool
 
-You answered 'bool'. The correct answer is 'str'.
 You have this many remaining tries: 5
 Your answer: float
 
-You answered 'float'. The correct answer is 'str'.
 You have this many remaining tries: 4
 Your answer: float
 
-You answered 'float'. The correct answer is 'str'.
 You have this many remaining tries: 3
 Your answer: float
 
-You answered 'float'. The correct answer is 'str'.
 You have this many remaining tries: 2
 Your answer: int
 
@@ -3197,31 +3183,24 @@ What does this expression evaluate to?
  True != (3 < 2)
 Your answer: int
 
-You answered 'int'. The correct answer is 'True'.
 You have this many remaining tries: 9
 Your answer: bool
 
-You answered 'bool'. The correct answer is 'True'.
 You have this many remaining tries: 8
 Your answer: str
 
-You answered 'str'. The correct answer is 'True'.
 You have this many remaining tries: 7
 Your answer: 1
 
-You answered '1'. The correct answer is 'True'.
 You have this many remaining tries: 6
 Your answer: 1
 
-You answered '1'. The correct answer is 'True'.
 You have this many remaining tries: 5
 Your answer: False
 
-You answered 'False'. The correct answer is 'True'.
 You have this many remaining tries: 4
 Your answer: 1
 
-You answered '1'. The correct answer is 'True'.
 You have this many remaining tries: 3
 Your answer: True
 
@@ -3244,31 +3223,24 @@ What is the type of the following? "1.0" + "2.0"
 
 Your answer: e
 
-You answered 'e'. The correct answer is 'c'.
 You have this many remaining tries: 9
 Your answer: e
 
-You answered 'e'. The correct answer is 'c'.
 You have this many remaining tries: 8
 Your answer: e
 
-You answered 'e'. The correct answer is 'c'.
 You have this many remaining tries: 7
 Your answer: b
 
-You answered 'b'. The correct answer is 'c'.
 You have this many remaining tries: 6
 Your answer: e
 
-You answered 'e'. The correct answer is 'c'.
 You have this many remaining tries: 5
 Your answer: b
 
-You answered 'b'. The correct answer is 'c'.
 You have this many remaining tries: 4
 Your answer: b
 
-You answered 'b'. The correct answer is 'c'.
 You have this many remaining tries: 3
 Your answer: c
 
@@ -3277,23 +3249,18 @@ Congratulations! You got it right.
 What is the type of the following? "1" * 2
 Your answer: bool
 
-You answered 'bool'. The correct answer is 'str'.
 You have this many remaining tries: 9
 Your answer: int
 
-You answered 'int'. The correct answer is 'str'.
 You have this many remaining tries: 8
 Your answer: float
 
-You answered 'float'. The correct answer is 'str'.
 You have this many remaining tries: 7
 Your answer: float
 
-You answered 'float'. The correct answer is 'str'.
 You have this many remaining tries: 6
 Your answer: bool
 
-You answered 'bool'. The correct answer is 'str'.
 You have this many remaining tries: 5
 Your answer: str
 
@@ -3303,11 +3270,9 @@ What does this expression evaluate to?
  True != (3 < 2)
 Your answer: 0
 
-You answered '0'. The correct answer is 'True'.
 You have this many remaining tries: 9
 Your answer: False
 
-You answered 'False'. The correct answer is 'True'.
 You have this many remaining tries: 8
 Your answer: True
 
@@ -3330,35 +3295,27 @@ What is the type of the following? "1.0" + "2.0"
 
 Your answer: e
 
-You answered 'e'. The correct answer is 'c'.
 You have this many remaining tries: 9
 Your answer: a
 
-You answered 'a'. The correct answer is 'c'.
 You have this many remaining tries: 8
 Your answer: a
 
-You answered 'a'. The correct answer is 'c'.
 You have this many remaining tries: 7
 Your answer: b
 
-You answered 'b'. The correct answer is 'c'.
 You have this many remaining tries: 6
 Your answer: b
 
-You answered 'b'. The correct answer is 'c'.
 You have this many remaining tries: 5
 Your answer: e
 
-You answered 'e'. The correct answer is 'c'.
 You have this many remaining tries: 4
 Your answer: b
 
-You answered 'b'. The correct answer is 'c'.
 You have this many remaining tries: 3
 Your answer: a
 
-You answered 'a'. The correct answer is 'c'.
 You have this many remaining tries: 2
 Your answer: e
 
@@ -3371,35 +3328,27 @@ Congratulations! You got it right.
 What is the type of the following? "1" * 2
 Your answer: bool
 
-You answered 'bool'. The correct answer is 'str'.
 You have this many remaining tries: 9
 Your answer: float
 
-You answered 'float'. The correct answer is 'str'.
 You have this many remaining tries: 8
 Your answer: bool
 
-You answered 'bool'. The correct answer is 'str'.
 You have this many remaining tries: 7
 Your answer: int
 
-You answered 'int'. The correct answer is 'str'.
 You have this many remaining tries: 6
 Your answer: float
 
-You answered 'float'. The correct answer is 'str'.
 You have this many remaining tries: 5
 Your answer: int
 
-You answered 'int'. The correct answer is 'str'.
 You have this many remaining tries: 4
 Your answer: int
 
-You answered 'int'. The correct answer is 'str'.
 You have this many remaining tries: 3
 Your answer: float
 
-You answered 'float'. The correct answer is 'str'.
 You have this many remaining tries: 2
 Your answer: bool
 
@@ -3414,35 +3363,27 @@ What does this expression evaluate to?
  True != (3 < 2)
 Your answer: 1
 
-You answered '1'. The correct answer is 'True'.
 You have this many remaining tries: 9
 Your answer: None
 
-You answered 'None'. The correct answer is 'True'.
 You have this many remaining tries: 8
 Your answer: False
 
-You answered 'False'. The correct answer is 'True'.
 You have this many remaining tries: 7
 Your answer: False
 
-You answered 'False'. The correct answer is 'True'.
 You have this many remaining tries: 6
 Your answer: None
 
-You answered 'None'. The correct answer is 'True'.
 You have this many remaining tries: 5
 Your answer: 1
 
-You answered '1'. The correct answer is 'True'.
 You have this many remaining tries: 4
 Your answer: 1
 
-You answered '1'. The correct answer is 'True'.
 You have this many remaining tries: 3
 Your answer: 0
 
-You answered '0'. The correct answer is 'True'.
 You have this many remaining tries: 2
 Your answer: 0
 
@@ -3470,35 +3411,27 @@ What is the type of the following? "1.0" + "2.0"
 
 Your answer: a
 
-You answered 'a'. The correct answer is 'c'.
 You have this many remaining tries: 9
 Your answer: e
 
-You answered 'e'. The correct answer is 'c'.
 You have this many remaining tries: 8
 Your answer: a
 
-You answered 'a'. The correct answer is 'c'.
 You have this many remaining tries: 7
 Your answer: a
 
-You answered 'a'. The correct answer is 'c'.
 You have this many remaining tries: 6
 Your answer: e
 
-You answered 'e'. The correct answer is 'c'.
 You have this many remaining tries: 5
 Your answer: a
 
-You answered 'a'. The correct answer is 'c'.
 You have this many remaining tries: 4
 Your answer: b
 
-You answered 'b'. The correct answer is 'c'.
 You have this many remaining tries: 3
 Your answer: b
 
-You answered 'b'. The correct answer is 'c'.
 You have this many remaining tries: 2
 Your answer: e
 
@@ -3512,35 +3445,27 @@ You have this many remaining tries: 0
 What is the type of the following? "1" * 2
 Your answer: float
 
-You answered 'float'. The correct answer is 'str'.
 You have this many remaining tries: 9
 Your answer: float
 
-You answered 'float'. The correct answer is 'str'.
 You have this many remaining tries: 8
 Your answer: float
 
-You answered 'float'. The correct answer is 'str'.
 You have this many remaining tries: 7
 Your answer: bool
 
-You answered 'bool'. The correct answer is 'str'.
 You have this many remaining tries: 6
 Your answer: bool
 
-You answered 'bool'. The correct answer is 'str'.
 You have this many remaining tries: 5
 Your answer: bool
 
-You answered 'bool'. The correct answer is 'str'.
 You have this many remaining tries: 4
 Your answer: bool
 
-You answered 'bool'. The correct answer is 'str'.
 You have this many remaining tries: 3
 Your answer: float
 
-You answered 'float'. The correct answer is 'str'.
 You have this many remaining tries: 2
 Your answer: str
 
@@ -3550,37 +3475,27 @@ What does this expression evaluate to?
  True != (3 < 2)
 Your answer: 0
 
-You answered '0'. The correct answer is 'True'.
 You have this many remaining tries: 9
 Your answer: None
 
-You answered 'None'. The correct answer is 'True'.
 You have this many remaining tries: 8
 Your answer: False
 
-You answered 'False'. The correct answer is 'True'.
 You have this many remaining tries: 7
 Your answer: 1
 
-You answered '1'. The correct answer is 'True'.
 You have this many remaining tries: 6
 Your answer: 0
 
-You answered '0'. The correct answer is 'True'.
 You have this many remaining tries: 5
 Your answer: False
 
-You answered 'False'. The correct answer is 'True'.
 You have this many remaining tries: 4
 Your answer: True
 
 Congratulations! You got it right.
 You tried 3 questions and got 2 right.
 '''.strip())
-
-
-
-
 
 
 def check_answer(expected, actual):

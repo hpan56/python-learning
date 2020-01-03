@@ -2,7 +2,8 @@
 
 ## Corrections
 
-* none yet
+* Feb 6: fixed tests for q20 (please re-download test.py)
+* Feb 8: clarify that extrapolation is linear (see new example in function 5 description)
 
 ## Description
 
@@ -18,14 +19,10 @@ Start by downloading `project.py`, `test.py` and `madison.csv`.
 Double check that these files don't get renamed by your browser (by
 running `ls` in the terminal from your `p3` project directory).
 You'll do all your work in a new `main.ipynb` notebook that you'll
-create and hand in when you're done (please do not write your
-functions in a separate .py file).  You'll test as usual by running
-`python test.py` (or similar, depending on your laptop setup).  Before
-handing in, please put the project, submitter, and partner info in a
-comment in the first cell, in the same format you used for previous
-projects (please continue doing so for all projects this semester).
+create and hand in when you're done.  You'll test as usual by running
+`python test.py`.
 
-We won't explain how to use the `project` module here (the code is in the
+We won't explain how to use the `project` module here (the code in the
 `project.py` file).  The lab this week is designed to teach you how it
 works, so be sure to do the lab from home (if you missed it) before
 starting the project.
@@ -42,17 +39,17 @@ The data looks like this:
 
 agency_id|agency|2015|2016|2017|2018
 ------|------|------|------|------|------
-5|police|68.06346877|71.32575615000002|73.24794765999998|77.87553504
-6|fire|49.73757877|51.96834048|53.14405332|55.215007260000014
-9|library|16.96543425|18.12552139|19.13634773|19.845065799999997
-12|parks|18.371421039999998|19.159243279999995|19.316837019999994|19.7607100000000
-15|streets|25.368879940000006|28.2286218|26.655754419999994|27.798933740000003
+11|police|68.06346877|71.32575615000002|73.24794765999998|77.87553504
+22|fire|49.73757877|51.96834048|53.14405332|55.215007260000014
+33|library|16.96543425|18.12552139|19.13634773|19.845065799999997
+44|parks|18.371421039999998|19.159243279999995|19.316837019999994|19.7607100000000
+55|streets|25.368879940000006|28.2286218|26.655754419999994|27.798933740000003
 
 The dataset is in the `madison.csv` file.  We'll learn about CSV files
 later in the semester.  For now, you should know this about them:
 * it's easy to create them by exporting from Excel
 * it's easy to use them in Python programs
-* we'll give you a `project.py` module to help you extract data from CSV files until we teach you to do it directly yourself
+* we'll give you a `project` module to help you extract data from CSV files until we teach you to do it directly yourself
 
 All the numbers in the dataset are in millions of dollars.  Answer
 questions in millions of dollars unless we specify otherwise.
@@ -62,7 +59,7 @@ questions in millions of dollars unless we specify otherwise.
 You may not hardcode agency IDs in your code.  For example, if we ask
 how much was spent on streets in 2015, you could obtain the answer
 with this code: `get_spending(get_id("streets"), 2015)`.  If you don't
-use `get_id` and instead use `get_spending(15, 2015)`, we'll deduct
+use `get_id` and instead use `get_spending(55, 2015)`, we'll deduct
 points.
 
 For some of the questions, we'll ask you to write (then use) a
@@ -73,14 +70,14 @@ you did it produced the correct answer.
 
 ## Questions and Functions
 
-### Q1: What is the agency ID of the parks agency?
+### Q1: What is the agency ID of the library agency?
 
-Hint: use `project.get_id("parks")`
+Hint: use `project.get_id("library")`
 
-### Q2: How much did the agency with ID 6 spend in 2018?
+### Q2: How much did the agency with ID 44 spend in 2018?
 
-It is OK to hardcode `6` in this case since we asked directly about
-agency 6 (instead of about "fire").
+It is OK to hardcode `44` in this case since we asked directly about
+agency 44 (instead of about "parks").
 
 ### Q3: How much did "streets" spend in 2017?
 
@@ -146,16 +143,16 @@ over the course of a year.
 
 Use your `agency_min` function.
 
-### Q7: What was the least that library ever spent in a year?
+### Q7: What was the least that fire ever spent in a year?
 
-### Q8: What was the least that parks ever spent in a year?
+### Q8: What was the least that library ever spent in a year?
 
 ### Function 3: `agency_avg(agency)`
 
 This function will compute the average (over the four datapoints) that
 the given agency spends per year.
 
-Hint: start by copy/pasting `agency_min` and renaming your copy to
+Hint: start by copy/pasting `agency_avg` and renaming your copy to
 `agency_avg`.  Instead of computing the minimum of `y15`, `y16`, etc.,
 compute the average of these by adding, then dividing by 4.
 
@@ -163,7 +160,7 @@ compute the average of these by adding, then dividing by 4.
 
 Use your `agency_avg` function.
 
-### Q10: How much is spent per year on fire, on average?
+### Q10: How much is spent per year on parks, on average?
 
 ### Q11: How much did the police spend above their average in 2018?
 
@@ -188,11 +185,6 @@ Python requires all functions to have at least one line of code.  When
 you don't have some code, yet, it's common for that line to be `pass`,
 which does nothing.  Note the default arguments above.
 
-We're not asking you to assume exponential growth or do anything fancy
-here; you just need to compute the difference between spending in the
-last year and the first year, then divide by the number of elapsed
-years.
-
 ### Q12: how much has spending increased per year (on average) for police from 2015 to 2018?
 
 Use the default arguments (your call to `change_per_year` should only
@@ -209,12 +201,11 @@ Note that a negative answer is expected (a negative increase represents a decrea
 
 ### Function 5: `extrapolate(agency, year1, year2, year3)`
 
-This function should compute the average change per year from the data
-from `year1` to `year2` for `agency`, using your previous function for
-finding average change.  It then returns the predicted spending in
-`year3`, assuming spending continues increasing (or decreasing) by the
-same constant amount each year.  We don't have anything for you to
-copy for this one (you need to write it from scratch).
+This function computes the average change per year from the data from
+`year1` to `year2` for `agency`.  It then returns the predicted
+spending in `year3`, assuming spending continues changing by the same
+constant amount each year.  We don't have anything for you to copy for
+this one (you need to write it from scratch).
 
 As an example, suppose spending in 2016 (year1) is 100 and spending in
 2018 (year2) is 120.  The average increase is 10 per year.  So we
@@ -254,6 +245,4 @@ decision!
 
 ### Q19: what is the error if we extrapolate to 2018 from the 2015-to-2016 data for streets?
 
-### Q20: what is the standard deviation for library spending over the 4 years?
-
-Compute the population standard devation, as in [this example](https://en.wikipedia.org/wiki/Standard_deviation#Population_standard_deviation_of_grades_of_eight_students).
+### Q20: what is the error if we extrapolate to 2018 from the 2015-to-2017 data for streets?
