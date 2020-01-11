@@ -24,4 +24,4 @@ English refernce:
 
 # Schedule Reference
 
-https://
+https://tyler.caraza-harter.com/cs301/spring19/schedule.html
