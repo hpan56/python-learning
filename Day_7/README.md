@@ -13,6 +13,10 @@ In lec_40.pdf:
 
 4. Randomness
 
+# Reference:
+
+Useful plots:[Useful plots](https://www.jiqizhixin.com/articles/2019-01-15-11 "a")
+
 # Homework:
 
 p7 is due 7th Jan 2020
